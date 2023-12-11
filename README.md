@@ -1,10 +1,12 @@
-# 11dec-2023
-EDA on housing data set
+# Housing data set
 
-# Libraries
+# Overview
+The code conducts exploratory data analysis on a housing dataset, including data overview, statistics, and handling of categorical variables. It uses pandas for data manipulation, matplotlib for visualization. The code aims to understand and preprocess the dataset for potential modeling, providing insights through summary statistics and visualizations.
+
+# Prerequisites
 - Numpy
 - Pandas
 - Matplotlib
 
 # Code
-The  Python code performs exploratory data analysis (EDA) and data preprocessing on a housing dataset using the pandas, numpy, matplotlib, seaborn, and scikit-learn libraries. Initially, the dataset is loaded into a pandas DataFrame, and its structure and content are examined by displaying the first and last few rows, as well as obtaining information such as the number of rows and columns, column names, data types, and summary statistics. Categorical columns like 'mainroad', 'guestroom', 'basement', and 'furnishingstatus' are explored and, in the case of 'mainroad', binary values ('yes' and 'no') are converted to numeric values (1 and 0).Moreover, the code investigates the presence of null values in the dataset and generates descriptive statistics for a better understanding of the numerical features. The categorical columns are further analyzed through unique value counts. Finally, a histogram is created for a visual representation of the distribution of numerical features.
+Using the pandas, numpy, matplotlib, seaborn, and scikit-learn packages, the Python code employs exploratory data analysis (EDA) and data preprocessing on a housing dataset. After the dataset is imported into a pandas DataFrame, information about its number of rows and columns, column names, data types, and summary statistics are obtained, and the first and final few rows are displayed to assess the structure and content of the dataset. In order to investigate and, for the column "mainroad," binary values ('yes' and 'no') are transformed to numeric values (1 and 0). Other categorical categories, such as "guestroom," "basement," and "furnishingstatus," are also examined.In addition, to improve comprehension of the numerical features, the algorithm looks into the existence of null values in the dataset and produces descriptive statistics.Unique value counts are used to investigate the categorical columns in more detail. Lastly, a histogram is made to show the distribution of numerical features visually.
